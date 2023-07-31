@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scene3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+  <h1>Rating vs Genre</h1>
+  <p>
+    Finally, we will analyze whether a game's genre acts as a source of bias for its Metacritic rating. The data indicates that average Metacritic score remains relatively connstant throughout genres. Furthermore, the score disparity between genres does not appear to change significantly with the price of the game.
+  </p>
+  <div id="price-slider">
+    <label for="min-price-range">Min Price:</label>
+    <input type="range" id="min-price-range">
+    <span id="min-price-label">Min Price: $0</span>
+    <br>
+    <label for="max-price-range">Max Price:</label>
+    <input type="range" id="max-price-range">
+    <span id="max-price-label">Max Price: $0</span>
+  </div>
+  <div id="bar-chart-container"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="index3.js"></script>
+</body>
+</html>
